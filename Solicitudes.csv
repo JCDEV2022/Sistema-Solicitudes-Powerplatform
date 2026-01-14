@@ -1,0 +1,8 @@
+﻿"Título","ID","Descripcion","Estado","Solicitante","Fecha_Solicitud","ComentariosAdmin"
+"prueba","1","primera prueba","Pendiente","Juan Camilo Medina Betancur","12/01/2026",
+"prueba 2 ","2","segunda prueba","Pendiente","JUAN PABLO MEDINA BALDOVINO","12/01/2026",
+"prueba 3 ","3","tercera prueba","Pendiente","Juan Camilo Medina Betancur","12/01/2026",
+"prueba 4 ","4","cuarta prueba","Aprobado","Juan Camilo Medina Betancur","12/01/2026",
+"permiso 5","5","permiso para las 2 pm del 15 de enero ","Pendiente","Juan Camilo Medina Betancur","12/01/2026",
+"permiso 6","6","permiso universidad","Pendiente","Juan Camilo Medina Betancur","12/01/2026",
+"prueba 7 permiso","7","permiso estudio","Rechazado","Juan Camilo Medina Betancur","14/01/2026",

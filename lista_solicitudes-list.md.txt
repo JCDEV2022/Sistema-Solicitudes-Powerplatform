@@ -1,0 +1,19 @@
+# Lista SharePoint: Solicitudes
+
+## Descripción
+Lista utilizada para almacenar las solicitudes creadas desde la Power App.
+
+## Columnas
+
+| Nombre | Tipo | Descripción |
+|------|-----|------------|
+| Title | Texto | Tipo de solicitud |
+| Descripcion | Texto multilínea | Detalle de la solicitud |
+| Estado | Choice | Pendiente / Aprobado / Rechazado |
+| Solicitante | Persona | Usuario que crea la solicitud |
+| FechaSolicitud | Fecha | Fecha de creación |
+| ComentariosAdmin | Texto multilínea | Comentarios del administrador |
+
+## Permisos
+- Usuarios: crear y ver sus propios registros
+- Administradores: control total
