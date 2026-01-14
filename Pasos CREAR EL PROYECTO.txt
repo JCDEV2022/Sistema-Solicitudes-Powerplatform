@@ -1,0 +1,104 @@
+1️ Alcance del MVP (lo que SÍ vamos a hacer)
+👤 Rol Usuario
+
+Crear solicitud
+
+Ver sus solicitudes
+
+Ver estado
+
+👨‍💼 Rol Administrador
+
+Ver todas las solicitudes
+
+Aprobar / Rechazar
+
+Comentarios
+
+____________________________________________________________________________
+
+2️ Estructura de datos (SharePoint recomendado)
+
+📄 Lista: Solicitudes
+
+Columna	            Tipo
+Title	            Texto (Tipo de solicitud)
+Descripcion	    Texto multilínea
+Estado	            Choice: Pendiente, Aprobado, Rechazado
+Solicitante	    Persona
+FechaSolicitud	    Fecha
+ComentariosAdmin    Texto multilínea
+
+______________________________________________________________________________
+
+3️ Pantallas Power Apps (Canvas)
+
+📱 Pantalla 1 – Inicio
+
+Botón Nueva Solicitud
+
+Botón Mis Solicitudes
+
+______________________________________________________________________________
+
+📝 Pantalla 2 – Nueva Solicitud
+
+Formulario conectado a SharePoint
+
+Campos:
+
+Tipo
+
+Descripción
+
+Botón Guardar
+
+______________________________________________________________________________
+
+🛠 Pantalla 4 – Administración
+
+Visible solo para admins
+
+Galería con todas las solicitudes
+
+Botones Aprobar / Rechazar
+
+______________________________________________________________________________
+
+4️ Flujo Power Automate (Aprobación)
+🔁 Flujo: AprobacionSolicitud
+
+Disparador
+
+Cuando se crea un ítem en SharePoint
+
+Pasos
+
+Iniciar aprobación
+
+Esperar respuesta
+
+Condición:
+
+Si aprueba → Estado = Aprobado
+
+Si rechaza → Estado = Rechazado
+
+Enviar correo al solicitante
+
+______________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

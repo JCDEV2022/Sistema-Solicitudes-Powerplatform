@@ -1,0 +1,33 @@
+powerplatform-request-app/
+│
+├── powerapps/
+│   └── RequestApp.zip
+│
+├── powerautomate/
+│   └── ApprovalFlow.zip
+│
+├── data/
+│   └── sharepoint-list-structure.md
+│
+├── docs/
+│   ├── architecture.png
+│   ├── screenshots/
+│   └── installation-guide.md
+│
+├── README.md
+└── .gitignore
+
+
+powerplatform-solicitudes/
+│
+├── powerapps/
+│   └── AppSolicitudes.zip
+│
+├── powerautomate/
+│   └── ApprovalFlow.zip
+│
+├── data/
+│   └── solicitudes-list.md
+│
+└── README.md
+
